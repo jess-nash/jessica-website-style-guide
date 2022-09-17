@@ -1,4 +1,4 @@
-# ca-website-design-system
+# Jessica's Website Style Guide
 
 Developers and designers use design systems in order to organize the look and feel of a website or web application. Design systems help to document the visual vocabulary and reusable components of a large website.
 
