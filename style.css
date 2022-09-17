@@ -1,0 +1,171 @@
+body {
+  font-family: 'Monterrat', sans-serif;
+  margin: 0;
+}
+
+.main-container {
+  margin-top: 70px;
+}
+
+.container {
+  border: 2px solid #a2a2a6;
+  padding: 15px;
+  margin: 10px 10%;
+}
+
+.color-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 10px;
+}
+
+.color-panel {
+  display: inline-block;
+  width: 30%;
+  text-align: center;
+  margin: 20px auto;
+  min-height: 100px;
+}
+
+#muddied-pink {
+  color: black;
+  background-color: #F2D7D9;
+}
+
+#soft-violet {
+  color: black;
+  background-color: #D3CEDF;
+}
+
+#rain-puddle-blue {
+  color: white;
+  background-color: #9CB4CC;
+}
+
+#storm-blue {
+  color: white;
+  background-color: #748DA6;
+}
+
+.font-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 10px;
+}
+
+.font-label {
+  font-size: 20px;
+  text-decoration: underline;
+}
+
+.montserrat {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.pt-serif {
+  font-family: 'PT Serif', serif;
+}
+
+.nunito-sans {
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+.regular {
+  font-style: normal;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.text-panel h1 {
+  font-weight: 700;
+  font-size: 32px;
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+.text-panel h2 {
+  font-weight: 500;
+  font-size: 18px;
+  font-family: 'PT Serif', serif;
+}
+
+.text-panel p {
+  font-weight: 400;
+  font-size: 14px;
+  font-family: 'PT Serif', serif;
+}
+
+.text-panel ul {
+  line-height: 25px;
+}
+
+
+header {
+  width: 100%;
+  height: 55px;
+  background-color: #F2D7D9;
+  top: 0;
+  position: fixed;
+}
+
+header h1 {
+  margin: 0;
+  padding: 10px;
+}
+
+.header-content {
+  display: flex;
+  align-items: center;
+}
+
+header ul {
+  position: fixed;
+  right: 20px;
+}
+
+header li {
+  display: inline;
+  padding: 20px;
+  font-size: 20px;
+}
+
+main {
+  position: relative;
+  width: 62.5rem;
+  min-width: 18.75rem;
+  margin: 10rem auto 3.125rem auto;
+  font-family: "Nunito Sans";
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background-color: #F2D7D9;
+}
+
+.footer_text {
+  text-align: center;
+  margin: 8px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: #9CB4CC;
+}
+
+.pink-icon {
+  color: #F2D7D9;
+}

@@ -4,14 +4,117 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title></title>
+    <title>Jessica's Website Style Guide</title>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="images/favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+
     <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400&family=PT+Serif:ital,wght@0,400;0,700;1,400&family=Roboto:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/cbbc66f1b7.js" crossorigin="anonymous"></script>
   </head>
   <body>
-    <h1>My Website Style Guide</h1>
-
-    <script src="" async defer></script>
+    <header class="header">
+      <div class="header-content">
+        <h1><a href="#">Jessica's Website Style Guide</a></h1>
+        <ul>
+          <li><a href="#colors">Colors</a></li>
+          <li><a href="#fonts">Fonts</a></li>
+          <li><a href="#text-styles">Text Styles</a></li>
+          <li><a href="#bootstrap">Bootstrap</a></li>
+        </ul>
+      </div>
+    </header>
+    <div class="main-container">
+      <div class="container" id="colors">
+        <h2>Colors</h2>
+        <div class="color-container colors">
+          <div class="color-panel" id="muddied-pink">
+            <p class="color-label">Muddied Pink</p>
+            <p class="color-hex">#F2D7D9</p>
+          </div>
+          <div class="color-panel" id="soft-violet">
+            <p class="color-label">Soft Violet</p>
+            <p class="color-hex">#D3CEDF</p>
+          </div>
+          <div class="color-panel" id="rain-puddle-blue">
+            <p class="color-label">Rain Puddle Blue</p>
+            <p class="color-hex">#9CB4CC</p>
+          </div>
+          <div class="color-panel" id="storm-blue">
+            <p class="color-label">Storm Blue</p>
+            <p class="color-hex">#748DA6</p>
+          </div>
+        </div>
+      </div>
+      <div class="container" id="fonts">
+        <h2>Fonts</h2>
+        <div class="font-container">
+          <div class="font-panel">
+            <p class="font-label montserrat">Montserrat</p>
+            <p class="regular montserrat">The quick brown fox jumps over the lazy dog.</p>
+            <p class="bold montserrat">The quick brown fox jumps over the lazy dog.</p>
+            <p class="italic montserrat">The quick brown fox jumps over the lazy dog.</p>
+          </div>
+          <div class="font-panel">
+            <p class="font-label pt-serif">PT Serif</p>
+            <p class="regular pt-serif">The quick brown fox jumps over the lazy dog.</p>
+            <p class="bold pt-serif">The quick brown fox jumps over the lazy dog.</p>
+            <p class="italic pt-serif">The quick brown fox jumps over the lazy dog.</p>
+          </div>
+          <div class="font-panel">
+            <p class="font-label nunito-sans">Nunito Sans</p>
+            <p class="regular nunito-sans">The quick brown fox jumps over the lazy dog.</p>
+            <p class="bold nunito-sans">The quick brown fox jumps over the lazy dog.</p>
+            <p class="italic nunito-sans">The quick brown fox jumps over the lazy dog.</p>
+          </div>
+        </div>
+      </div>
+      <div class="container" id="text-styles">
+        <h2>Text Styles</h2>
+        <div class="text-panel">
+          <h1>H1: Main Page Heading</h1>
+          <ul>
+            <li>Font-weight: 700 (bold)</li>
+            <li>Font-size: 26px</li>
+            <li>Font-family: Nunito Sans</li>
+          </ul>
+        </div>
+        <div class="text-panel">
+          <h2>H2: Subheading</h2>
+          <ul>
+            <li>Font-weight: 500</li>
+            <li>Font-size: 18px</li>
+            <li>Font-family: PT Serif</li>
+          </ul>
+        </div>
+        <div class="text-panel">
+          <p>P: Paragraph text</p>
+          <ul>
+            <li>Font-weight: 400 (regular)</li>
+            <li>Font-size: 14px</li>
+            <li>Font-family: PT Serif</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="container" id="bootstrap">
+      <h2>Bootstrap <i class="fab fa-bootstrap pink-icon"></i></h2>
+      <i>Coming soon...</i>
+    </div>
+    <footer>
+      <p class="footer-text">All rights reserved © 2022 Jessica Nash</p>
+    </footer>
+    <script></script>
   </body>
 </html>
